@@ -19,6 +19,13 @@ public class Main
         for (int i = 0; i < arrayDeProductos.length; i++) {
             System.out.println(arrayDeProductos[i].toString());
         }
+
+        Double total = 0.0;
+        for (Product p : arrayDeProductos) {
+            total += p.getPrecio();
+        }
+        System.out.printf("\nPrecio total: %.2f", total);
+
     }
 
 }
