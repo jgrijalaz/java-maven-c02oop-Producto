@@ -31,6 +31,6 @@ public class Product
 
     @Override
     public String toString() {
-        return String.format("%d  %s  %s  %.2d",this.numReg, this.name, this.description, this.precio);
+        return String.format("%-15d %-15s %-15s %-15.2f",this.numReg, this.name, this.description, this.precio);
     }
 }

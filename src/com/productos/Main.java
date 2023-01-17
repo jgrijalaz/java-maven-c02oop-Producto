@@ -12,12 +12,12 @@ public class Main
 
         Product[] arrayDeProductos = new Product[]{product1, product2, product3, product4, product5};
 
-        System.out.printf("%10s %10s %10s %10s\n***********************************",
-                "NumProducto", "Nombre", "Descripcion", "Precio");
+        System.out.printf("%-15s %-15s %-15s %-15s\n%-50s\n",
+                "NumProducto", "Nombre", "Descripcion", "Precio",
+                "******************************************************");
 
         for (int i = 0; i < arrayDeProductos.length; i++) {
-            arrayDeProductos[i].toString();
-            System.out.println();
+            System.out.println(arrayDeProductos[i].toString());
         }
     }
 
