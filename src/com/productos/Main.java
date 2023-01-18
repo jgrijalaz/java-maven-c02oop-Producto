@@ -44,7 +44,13 @@ public class Main
 
         System.out.printf("\nPrecio total: %.2f", precioTotal);
 
+        int[] nan = {1,2,3,4};
+
+        //System.out.println(Math.max(nan));
+
     }
+
+
 
 }
 
